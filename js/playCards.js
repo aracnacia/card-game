@@ -7,7 +7,7 @@ $(document).ready(function(){
         $('#error').html(msg).show();
         setTimeout(function(){
             $('#error').fadeOut('slow');
-        },3000);
+        },1000);
     }
     var showHand = function(){
         var el = $('#yourHand')
